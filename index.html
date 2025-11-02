@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MY PORTFOLIO</title>
+    <link rel="icon" type="image/x-icon" href="../images/Portfolio.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/037a99e28a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img title="My Image" src="../images/PP.jpg" alt="My Image" class="header-image">
+        <div class="header-title-container">
+            <h1 class="header-title">BHAWESH SHARMA</h1>
+            <h3 class="header-subtitle">Web Developer | Programmer</h3>
+        </div>
+        <div class="weather-container" id="weather">Loading weather...</div>
+    </header>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a class="active" href="#">About Me</a>
+        <a class="active" href="#">Skills</a>
+        <a class="active" href="#">Projects</a>
+        <a class="active" href="#">Contact</a>
+        <button class="nav-button">Log Out</button>
+    </nav>
+    <div id="about-me" class="hidden">
+        <h2 class="tagline">Freelance by choice.<br>Developer by obsession</h2>
+        <p><b>Hey there, viewer!</b><br><br>
+I’m <b><u>Bhawesh Kumar</u></b>—though most people around here know me as <b><u>Bhawesh Sharma</u></b>.<br><br>
+I’ve been connected to computers for over a decade, but it was around 3–4 years ago that I finally stepped into the world of web development.<br><br>
+<b>Why freelance?</b> Well, let’s just say I’ve had my share of office life, and it didn’t quite fit. I prefer working independently, learning at my own pace, and building things that actually excite me. My journey started with YouTube tutorials and paid content online, and since then, I’ve been hooked.<br><br>
+I’m a passionate web developer who loves creating websites that look good and feel good to use. I specialize in responsive design, interactive UI elements, and clean, maintainable code. Whether it’s CSS animations, DOM manipulation, or solving tricky bugs, I thrive on turning ideas into interactive realities.<br><br>
+I believe good design isn’t just about visuals—it’s about experience. I aim to build interfaces that feel intuitive, perform smoothly, and leave a lasting impression.<br><br>
+This field is endless, and I’m here for the ride. I’m still learning every day—and that’s the best part. You could call me a fresher, but I bring real curiosity, persistence, and a love for clean, functional design.<br><br>
+I’m not here to chase titles—I’m here to build, learn, and grow. If you’re someone who values passion over polish, and progress over perfection, we’ll probably get along just fine.
+Feel free to check out my projects and reach out if something clicks!
+        </p>
+    </div>
+    <div id="skills" class="hidden">
+        <h2>My Skills</h2>
+        <ol type="I">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Web Design</li>
+            <li>CSS Animations</li>
+            <li>DOM Manipulation</li>
+            <li>Version Control (Git)</li>
+            <li>Basic SEO Principles</li>
+            <li>Problem-Solving & Debugging</li>
+            <li>Cross-Browser Compatibility</li>
+        </ol>
+    </div>
+    <div id="projects" class="hidden">
+        <h2 style="font-family: 'Poppins', sans-serif; font-size: 24px; color: #333; text-align: center;">My Projects</h2>
+        <ul class="work">
+            <li><b>Portfolio Website:</b> A personal portfolio site showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</li>
+            <li><b>To-Do List App:</b> A simple to-do list application that allows users to add, edit, and delete tasks. Implemented using vanilla JavaScript for DOM manipulation.</li>
+            <li><b>Responsive Blog Layout:</b> A blog layout design that adapts seamlessly to different screen sizes using CSS Flexbox and Media Queries.</li>
+            <li><b>CSS Animation Gallery:</b> A collection of various CSS animations demonstrating transitions, keyframes, and hover effects.</li>
+            <li><b>Weather Dashboard:</b> A weather dashboard that fetches data from a public API and displays current weather conditions and forecasts. Built with HTML, CSS, and JavaScript.</li>
+        </ul>
+    </div>
+    <div id="contact" class="hidden">
+        <h2>Contact Me<sup style = "color: red">*</sup></h2>
+        <div class="contact-info">
+            <p>It will be provided later otherwise it will be seemed alike rule violation of any freelance work provider website but still you can contact me at my LinkedIn profile which has been given below.😊</p>
+        </div>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <main>
+        <div class="content flex">
+            <div class="content1">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Explore my skills, projects which are showcased here (and totally based on HTML+CSS+JavaScript), and get in touch!</p>
+            </div>
+            <div class="image-container">
+                <img src="img1.jpg" alt="Developer Image" class="img1">
+            </div>
+        </div>
+        <div class="content flex">
+            <div class="image-container">
+                <img src="img1.jpg" alt="Developer Image" class="img1">
+            </div>
+            <div class="content2">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Explore my skills, projects which are showcased here (and totally based on HTML+CSS+JavaScript), and get in touch!</p>
+            </div>
+        </div>
+        <div class="content flex">
+            <div class="content3">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Explore my skills, projects which are showcased here (and totally based on HTML+CSS+JavaScript), and get in touch!</p>
+            </div>
+            <div class="image-container">
+                <img src="img1.jpg" alt="Developer Image" class="img1">
+            </div>
+        </div>
+        <div class="content flex">
+            <div class="image-container">
+                <img src="img1.jpg" alt="Developer Image" class="img1">
+            </div>
+            <div class="content4">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Explore my skills, projects which are showcased here (and totally based on HTML+CSS+JavaScript), and get in touch!</p>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Bhawesh Sharma. All rights reserved.</p>
+        <div class="time" id="time">Loading time...</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
