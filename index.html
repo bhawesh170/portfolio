@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bhawesh Sharma - MY PORTFOLIO</title>
+    <link rel="icon" type="image/x-icon" href="../images/Portfolio.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/037a99e28a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="freeze">
+        <div class="header-container">
+            <div class="logo-container">
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-github"></i>
+            <div class="header-title-container">
+                <h1 class="header-title">BHAWESH SHARMA</h1>
+                <h3 class="header-subtitle">Frontend Developer | Web Programmer</h3>
+            </div>
+            <div class="weather-container" id="weather">Loading weather...</div>
+        </div>
+        <nav class="navbar">
+            <a class = "nav-child" href="#">Home</a>
+            <a class = "nav-child" href="#about-me">About Me</a>
+            <a class = "nav-child" href="#skills">Skills</a>
+            <a class = "nav-child" href="#projects">Projects</a>
+            <a class = "nav-child" href="#contact">Contact</a>
+        </nav>
+    </header>
+    <div id="about-me">
+        <div class = "intro">
+            <h2 class="tagline">Freelance by choice<br>Developer by obsession</h2>
+            <p><sup><i class="fa-solid fa-quote-left"></i></sup>I am a self‑taught web developer, actively building projects with HTML, CSS, and JavaScript.
+I enjoy turning ideas into interactive designs, focusing on DOM manipulation and clean, responsive layouts. I am excited to continue learning and contributing to the web development community.<sup><i class="fa-solid fa-quote-right"></i></sup>
+            </p>
+            <button id="projects">View Projects</button>
+            <button id="contact">Contact Me</button>
+        </div>
+        <img src="Profile_Image.jpg" alt="Coding Image" class="coding-image">
+    </div>
+    <div id="skills">
+        <h2>My Skills</h2>
+        <ol type="I">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>Responsive Web Design</li>
+            <li>CSS Animations</li>
+            <li>DOM Manipulation</li>
+            <li>Version Control (Git)</li>
+            <li>Basic SEO Principles</li>
+            <li>Problem-Solving & Debugging</li>
+            <li>Cross-Browser Compatibility</li>
+        </ol>
+    </div>
+    <div id="projects">
+        <h2 style="font-family: 'Poppins', sans-serif; font-size: 24px; color: #333; text-align: center;">My Projects</h2>
+        <ul class="work">
+            <li><b>Portfolio Website:</b> A personal portfolio site showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</li>
+            <li><b>To-Do List App:</b> A simple to-do list application that allows users to add, edit, and delete tasks. Implemented using vanilla JavaScript for DOM manipulation.</li>
+            <li><b>Responsive Blog Layout:</b> A blog layout design that adapts seamlessly to different screen sizes using CSS Flexbox and Media Queries.</li>
+            <li><b>CSS Animation Gallery:</b> A collection of various CSS animations demonstrating transitions, keyframes, and hover effects.</li>
+            <li><b>Weather Dashboard:</b> A weather dashboard that fetches data from a public API and displays current weather conditions and forecasts. Built with HTML, CSS, and JavaScript.</li>
+        </ul>
+    </div>
+    <div id="contact">
+        <h2>Contact Me<sup style = "color: red">*</sup></h2>
+        <div class="contact-info">
+            <p>Feel free to connect with me via LinkedIn or GitHub.😊</p>
+        </div>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <main>
+        <div class="project flex">
+            <div class="content1">
+                <h2>Welcome to My Portfolio</h2>
+                <p>Explore my skills, projects which are showcased here (and totally based on HTML+CSS+JavaScript), and get in touch!</p>
+            </div>
+            <div class="image-container">
+                <img src="img1.jpg" alt="Developer Image" class="img1">
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Bhawesh Sharma. All rights reserved.</p>
+        <div class="time" id="time">Loading time...</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
