@@ -3,68 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>Bhawesh Sharma - MY PORTFOLIO</title>
-    <link rel="icon" type="image/x-icon" href="../images/Portfolio.png">
+    <link rel="icon" type="image/png" href="Portfolio.png">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/037a99e28a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="freeze">
+    <header class="heading">
         <div class="header-container">
             <div class="logo-container">
                 <i class="fa-brands fa-linkedin"></i>
                 <i class="fa-brands fa-github"></i>
+            </div>
             <div class="header-title-container">
-                <h1 class="header-title">BHAWESH SHARMA</h1>
-                <h3 class="header-subtitle">Frontend Developer | Web Programmer</h3>
+                <h1 class="header-title">BHAWESH SHARMA<br>
+                <span class="header-subtitle">Frontend Developer | Web Programmer</span>
+                </h1>
             </div>
             <div class="weather-container" id="weather">Loading weather...</div>
         </div>
-        <nav class="navbar">
+    </header>
+    <nav class="navbar">
             <a class = "nav-child" href="#">Home</a>
             <a class = "nav-child" href="#about-me">About Me</a>
             <a class = "nav-child" href="#skills">Skills</a>
             <a class = "nav-child" href="#projects">Projects</a>
             <a class = "nav-child" href="#contact">Contact</a>
-        </nav>
-    </header>
+    </nav>
     <div id="about-me">
         <div class = "intro">
             <h2 class="tagline">Freelance by choice<br>Developer by obsession</h2>
-            <p><sup><i class="fa-solid fa-quote-left"></i></sup>I am a self‑taught web developer, actively building projects with HTML, CSS, and JavaScript.
+            <p><sup><i class="fa-solid fa-quote-left"></i></sup>I am a self‑taught web developer, actively building responsive and mobile-friendly projects with HTML, CSS, and JavaScript.
 I enjoy turning ideas into interactive designs, focusing on DOM manipulation and clean, responsive layouts. I am excited to continue learning and contributing to the web development community.<sup><i class="fa-solid fa-quote-right"></i></sup>
             </p>
-            <button id="projects">View Projects</button>
-            <button id="contact">Contact Me</button>
+            <div class="btn">
+                <a href="resume.pdf" class="resume-btn" download>Download Resume</a>
+                <button id="viewProjects">View Projects</button>
+                <button id="contact-btn">Contact Me</button>
+            </div>
         </div>
         <img src="Profile_Image.jpg" alt="Coding Image" class="coding-image">
     </div>
     <div id="skills">
         <h2>My Skills</h2>
-        <ol type="I">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript (ES6+)</li>
-            <li>Responsive Web Design</li>
-            <li>CSS Animations</li>
-            <li>DOM Manipulation</li>
-            <li>Version Control (Git)</li>
-            <li>Basic SEO Principles</li>
-            <li>Problem-Solving & Debugging</li>
-            <li>Cross-Browser Compatibility</li>
-        </ol>
-    </div>
-    <div id="projects">
-        <h2 style="font-family: 'Poppins', sans-serif; font-size: 24px; color: #333; text-align: center;">My Projects</h2>
-        <ul class="work">
-            <li><b>Portfolio Website:</b> A personal portfolio site showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript.</li>
-            <li><b>To-Do List App:</b> A simple to-do list application that allows users to add, edit, and delete tasks. Implemented using vanilla JavaScript for DOM manipulation.</li>
-            <li><b>Responsive Blog Layout:</b> A blog layout design that adapts seamlessly to different screen sizes using CSS Flexbox and Media Queries.</li>
-            <li><b>CSS Animation Gallery:</b> A collection of various CSS animations demonstrating transitions, keyframes, and hover effects.</li>
-            <li><b>Weather Dashboard:</b> A weather dashboard that fetches data from a public API and displays current weather conditions and forecasts. Built with HTML, CSS, and JavaScript.</li>
+        <ul type="I">
+            <li style="background-color: #E34F26; color: white;">HTML5</li>
+            <li style="background-color: #1572B6; color: white;">CSS3</li>
+            <li style="background-color: #F7DF1E; color: black;">JavaScript (ES6+)</li>
+            <li style="background-color: #61DAFB; color: black;">React.js</li>
+            <li style="background-color: #374151; color: white;">Responsive Web Design</li>
+            <li style="background-color: #374151; color: white;">DOM Manipulation</li>
+            <li style="background-color: #1572B6; color: white;">CSS Animations</li>
+            <li style="background-color: #374151; color: white;">Problem-Solving & Debugging</li>
+            <li style="background-color: #F05032; color: white;">Version Control (Git)</li>
+            <li style="background-color: #10B981; color: white;">Basic SEO Principles</li>
+            <li style="background-color: #E34F26; color: white;">Cross-Browser Compatibility</li>
+            <li style="background-color: #E34F26; color: white;">Web Performance Optimization</li>
         </ul>
     </div>
+    <div id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some of the mini projects I've built while learning, showcasing my skills in HTML, CSS, and JavaScript.</p>
+        <div class="project-list">
+            <div class="project-card" id="project1">
+                <img src="https://images.unsplash.com/photo-1773332585698-cba3c91b73e4?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>Project 1: Personal Portfolio Website</h3>
+                <p>A responsive portfolio website built with HTML, CSS, and JavaScript to showcase my skills and projects.</p>
+                <a href="project1.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-card" id="project2">
+                <img src="https://images.unsplash.com/photo-1761839259488-2bdeeae794f5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>Project 2: Weather App</h3>
+                <p>A weather application that fetches real-time weather data using the OpenWeatherMap API and displays it in a user-friendly interface.</p>
+                <a href="project2.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-card" id="project3">
+                <img src="https://images.unsplash.com/photo-1773332611613-dbdc64f09807?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <h3>Project 3: To-Do List</h3>
+                <p>A simple to-do list application that allows users to add, edit, and delete tasks, demonstrating DOM manipulation and local storage.</p>
+                <a href="project3.html" target="_blank">View Project</a>
+            </div>
+            <div class="project-card" id="project4">
+                <img src="Images/Back_Gammon_Game.png" alt="Back Gammon Game">
+                <h3>Back Gammon Game : Five Piece Game</h3>
+                <p>Used HTML, CSS, and JavaScript to create a interactive version of the classic board game.</p>
+                <a href="Projects/Game/game.html" target="_blank">Play Game</a>
+            </div>
+        </div>
+    </div>
+
     <div id="contact">
         <h2>Contact Me<sup style = "color: red">*</sup></h2>
         <div class="contact-info">
@@ -82,20 +110,8 @@ I enjoy turning ideas into interactive designs, focusing on DOM manipulation and
 
             <button type="submit">Send Message</button>
         </form>
-    </div>
-    <main>
-        <div class="project flex">
-            <div class="content1">
-                <h2>Welcome to My Portfolio</h2>
-                <p>Explore my skills, projects which are showcased here (and totally based on HTML+CSS+JavaScript), and get in touch!</p>
-            </div>
-            <div class="image-container">
-                <img src="img1.jpg" alt="Developer Image" class="img1">
-            </div>
-        </div>
-    </main>
-    
-    <footer>
+    </div>    
+    <footer id="footer">
         <p>&copy; 2024 Bhawesh Sharma. All rights reserved.</p>
         <div class="time" id="time">Loading time...</div>
     </footer>
